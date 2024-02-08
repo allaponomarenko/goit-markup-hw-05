@@ -424,7 +424,7 @@
           
           <input type="text" class="form-input" name="Subscribe" placeholder="E-mail" id="Subscribe">
         </label>
-      <button type="submit" class="foot-button">  
+      <button type="submit" class="foot-button"> Subscribe 
         <svg class="foot-icon-button" width="24" height="24">
           <use href="./images/icons.svg#icon-telegram"></use>
         </svg>
@@ -519,18 +519,20 @@
 
 
 
-            <form class="modal-text-privaci">
-            <label class="modal-text">
-              <input type="checkbox" name="privaci" value="plitica"/>
-              I accept the terms and conditions of the <span class="moddal-text-diferent"> Privacy Policy</span>
+            <div class="modal-text-privaci">
+              <input class="visuali-checkbox" type="checkbox" name="privaci" id="privaci" value="politica"/>
+            <label for="privaci" class="modal-text">
+              
+             <span class="privaci-button">
+              <svg class="privaci-modal-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-Property-1Default"></use>
+              </svg>
+             </span>
+             "I accept the terms and conditions of the"<a class="privaci-paragraf">Privacy Policy</a>
             </label>
-          </form>
-
-            
-            <div class="button-submit">
-            <button type="submit" class="button-submit-text" >Send</button>
             </div>
-
+            <button type="submit" class="button-submit-text" >Send</button>
+          </div>
         </form>
       
       

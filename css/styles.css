@@ -512,7 +512,7 @@ body {
 
 
   .social-footer {
-    margin-right: 80px;
+    
   }
   
   .social-footer-text {
@@ -561,63 +561,80 @@ body {
     background-color: #31d0aa;
   }
   
+   
+  /*telegram-footer*/
 
 
   .foot-form {
-    width: 264px;
-    height: 40px;
-    top: 140px;
-    left: 828px;
-    border-radius: 4px;
-    border: 1px;
-    color: #FFFFFF;
-    
+    margin-left: 80px;
+  }
+
+  .foot-text-form {
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+   letter-spacing: 0.02em;
+   color: #FFFFFF;
+   margin-bottom: 16px;;
+
   }
   .form {
+    gap: 24px;
+    display: flex;
   }
   .form-label {
-  }
-  .label-text {
-   
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
     
     
 
 
   }
+  
   .form-input {
     width: 264px;
     height: 40px;
-    
+    background-color: transparent;
     border-radius: 4px;
-    
-    box-sizing: border-box;
-    border-color: #FFFFFF;
-    background: #2E2F42;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000026;
 
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+    
+    padding-left: 16px;
 
   }
+
+  .foot-button {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.64em;
+    background-color: #4D5AE5;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;
+    padding: 8px 24px;
+    border-radius: 4px;
+    justify-content: center;
+    border: none;
+    height: 40px;
+    min-width: 165px;
+    display: inline-flex;
+    gap: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
 
   .foot-icon-button {
-  color: #ffff;
+    margin-left: 16px;
+    
   }
-
-.button-submit {
-  
-}
-
-
-  button {
-  
-  border-radius: 4px;
-  
-  color: #ffff;
-  background-color: #4D5AE5;
-  }
-
-
 
   /*section backdrop*/
 
@@ -632,6 +649,7 @@ body {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .is-open {
@@ -655,9 +673,7 @@ body {
 
   .modal-close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    position: absolute;
-   margin: 8px;
-    fill: #2E2F42;
+   
   }
   
   .modal-close {

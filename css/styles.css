@@ -911,7 +911,8 @@ body {
     font-size: 12px;
     font-weight: 400;
     color: #8E8F99;
-    line-height: 1.16;
+    
+    line-height: 1.17;
     letter-spacing: 0.04em;
     
   }
@@ -932,6 +933,7 @@ body {
 
   .privaci-modal-icon {
     width: 10px;
+    display: inline-flex;
   }
 
   .visually-hidden:checked + .modal-text span {

@@ -748,7 +748,6 @@ body {
     right: 24px;
     padding: 0;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0.2, 1), border 250ms;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -785,7 +784,7 @@ body {
 
 
   .modal-label {
-    display: block;
+    display: inline-flex;
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
@@ -884,7 +883,7 @@ body {
 
 
   .modal-text-privaci {
-    display: inline;
+    
     flex-direction: row;
     margin-bottom: 24px;
     padding-right: 0;

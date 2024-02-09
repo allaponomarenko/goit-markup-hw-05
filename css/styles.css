@@ -723,7 +723,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    padding: 24px;
+    padding: 72px 24px 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   }
@@ -774,7 +774,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 16px;
-    margin-top: 48px;
+    
     color: #2E2F42;
   }
   
@@ -830,7 +830,7 @@ body {
   .modal-icon {
     position: absolute;
     left: 16px;
-   
+    color: #2E2F42;
     top: 50%;
     transform:translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -853,7 +853,7 @@ body {
     
   }
 
-  .modal-field {
+  .user-comment {
     margin-bottom: 16px;
   }
 
@@ -907,11 +907,11 @@ body {
   
   .modal-text {
     font-family: Roboto, sans-serif;
-    display: flex;
+    display: inline-flex;
     font-size: 12px;
     font-weight: 400;
     color: #8E8F99;
-    line-height: 16px;
+    line-height: 1.16;
     letter-spacing: 0.04em;
     
   }
@@ -927,6 +927,7 @@ body {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
   }
 
   .privaci-modal-icon {
@@ -941,10 +942,11 @@ body {
 
 
   .privaci-paragraf {
+    
     color: #4D5AE5;
     font-family: Roboto,sans-serif;
     font-size: 12px;
-    font-weight: 400;
+    margin-left: 4px;
     line-height: 16px;
     letter-spacing: 0.48px;
     text-decoration-line: underline;
@@ -964,7 +966,8 @@ body {
     cursor: pointer;
     padding: 16px 32px;
     border-radius: 4px;
-    margin: 24px auto;   
+    
+    margin-top: 24px;   
     border: none;
     height: 56px;
     min-width: 169px;

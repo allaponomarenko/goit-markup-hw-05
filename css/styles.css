@@ -16,7 +16,7 @@ body {
   a {
     color: rgb(0, 0, 0);  
     text-decoration: none;
-    display: block;
+    
     }
 
 
@@ -93,12 +93,14 @@ body {
 
     .contacts-hed {
       display: flex;
+      
       gap: 40px; 
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 
     .hed-list {
+      display: block;
       color: #2e2f42;
       font-weight: 500;
       letter-spacing: 0.32px;
@@ -784,7 +786,7 @@ body {
 
 
   .modal-label {
-    display: inline-flex;
+    display: block;
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
@@ -906,7 +908,7 @@ body {
   
   .modal-text {
     font-family: Roboto, sans-serif;
-    display: inline-flex;
+    
     font-size: 12px;
     font-weight: 400;
     color: #8E8F99;
@@ -967,7 +969,7 @@ body {
     cursor: pointer;
     padding: 16px 32px;
     border-radius: 4px;
-    
+    margin: 0 auto;
     margin-top: 24px;   
     border: none;
     height: 56px;
